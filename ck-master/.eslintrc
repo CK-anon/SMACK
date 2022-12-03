@@ -1,0 +1,12 @@
+{
+    "extends": "airbnb",
+    "rules": {
+        "func-names": ["error", "never"],
+        "no-console": "off"
+    },
+    "globals": {
+        "expect": "readonly",
+        "describe": "readonly",
+        "it": "readonly"
+    },
+}

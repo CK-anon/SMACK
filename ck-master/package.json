@@ -1,0 +1,28 @@
+{
+  "scripts": {
+    "lint": "node ./node_modules/eslint/bin/eslint.js ./test/**/*.js ./scripts/**/*.js"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-chai-matchers": "^1.0.3",
+    "@nomiclabs/hardhat-ethers": "^2.0.6",
+    "@nomiclabs/hardhat-waffle": "^2.0.3",
+    "chai": "^4.3.6",
+    "elliptic-curve-solidity": "^0.2.4",
+    "ethereum-waffle": "^3.4.4",
+    "ethers": "^5.6.7",
+    "hardhat": "^2.11.2",
+    "hardhat-gas-reporter": "^1.0.9"
+  },
+  "dependencies": {
+    "@nomicfoundation/hardhat-network-helpers": "^1.0.6",
+    "@openzeppelin/contracts": "^4.7.3",
+    "chai-as-promised": "^7.1.1",
+    "eslint": "^8.24.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "ethers": "^5.6.7",
+    "hardhat": "^2.11.2",
+    "mocha": "^10.0.0",
+    "solhint": "^3.3.7",
+    "truffle": "^5.5.15"
+  }
+}
